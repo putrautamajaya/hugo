@@ -1,0 +1,283 @@
+.about-page {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-page .top-section {
+    background-color: #2779f5;
+    background-image: url('./images/image-about.jpeg');
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10rem 4rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-page .top-section .scroll-down {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 80vh;
+    left: 0;
+}
+
+.about-page .top-section .scroll-down img {
+    width: 1.3rem;
+    height: 4rem;
+}
+
+.about-page .top-section .scroll-down div {
+    font-family: 'MontserratBold', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    margin-bottom: 5rem;
+    opacity: 0.8;
+}
+
+.about-page .top-section .top-section-img {
+    display: none;
+}
+
+.about-page .top-section .left-section {
+    position: relative;
+    z-index: 2;
+}
+
+.about-page .top-section .left-section img {
+    height: 8vw;
+}
+
+.about-page .title-1 {
+    font-family: 'MontserratBold', sans-serif;
+    font-size: 8.5vw;
+    color: white;
+}
+
+.about-page .title-2 {
+    font-family: 'MontserratBold', sans-serif;
+    font-size: 8.5vw;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.about-page .top-section .left-section .text {
+    font-family: 'MontserratMedium', sans-serif;
+    font-size: 1.5rem;
+    color: #2e2d38;
+}
+
+.about-page .content {
+    background-color: #2e2d38;
+    padding: 10rem 2rem;
+    color: white;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 4.5vw;
+    line-height: 7vw;
+    box-sizing: border-box;
+    z-index: 0;
+    opacity: 0;
+}
+
+.about-page .content a {
+    background-color: transparent;
+    color: white;
+    font-family: 'MontserratLight', sans-serif;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    text-transform: none;
+    border-bottom: 1px solid white;
+}
+
+.about-page .content a:hover {
+    background-color: transparent;
+    border-bottom: 1px solid #2779f5;
+}
+
+.about-page a {
+    padding: 1rem 1.5rem;
+    background-color: #2779f5;
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.about-page a:hover {
+    background-color: white;
+    color: #2779f5;
+}
+
+.about-page .about .view-more {
+    padding: 0;
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.about-page .about .view-more:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.about-page .tzapac-animation .image {
+    width: 100%;
+}
+
+.about-page .img-1 {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    transition: 0.4s;
+    transition-timing-function: linear;
+}
+
+.about-page .img-2 {
+    z-index: 3;
+}
+
+.about-page .img-3 {
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    transition: 0.4s;
+    transition-timing-function: linear;
+}
+
+.about-page .about-images {
+    width: 100%;
+    height: 35vw;
+    background-color: #2e2d38;
+    position: relative;
+    margin: 10rem 0;
+}
+
+.about-page .background-container-1,
+.about-page .background-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    filter: brightness(0.7);
+}
+
+.about-page .background-container-2 {
+    position: absolute;
+    width: 100%;
+    top: 15vw;
+}
+
+.about-page .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    padding: 0px 5.5vw;
+    box-sizing: border-box;
+}
+
+.about-page .background-container-1 img {
+    width: 10vw;
+    height: 13.5vw;
+}
+
+.about-page .background-container-2 img {
+    width: 12vw;
+}
+
+.about-page .image-container img {
+    width: 15vw;
+    position: relative;
+    transition: 0.2s;
+}
+
+@media screen and (min-width: 450px) {
+    .about-page .top-section {
+        padding: 10rem 9rem 5rem 9rem;
+        align-items: flex-end;
+    }
+
+    .about-page .top-section {
+        background-image: none;
+    }
+
+    .about-page .top-section .left-section img {
+        height: 5vw;
+    }
+
+    .about-page .title-1 {
+        font-size: 5.5vw;
+    }
+    
+    .about-page .title-2 {
+        font-size: 5.5vw;
+    }
+
+    .about-page .top-section .top-section-img {
+        position: absolute;
+        display: block;
+        width: 40%;
+        top: 6rem;
+        right: 9rem;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .about-page .content {
+        padding: 10rem;
+    }
+
+    .about-page .content .text {
+        width: 45%;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .about-page .top-section .top-section-img {
+        width: 40%;
+    }
+
+    .about-page .top-section .top-section-img {
+        top: 10rem;
+    }
+
+    .about-page .content .text {
+        line-height: 5vw;
+    }
+
+    .about-page .top-section .scroll-down {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about-page .content .text {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+}

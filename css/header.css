@@ -1,0 +1,376 @@
+@import url(./css/style.css);
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 1rem;
+    top: 1rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: #2e2d38;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 11;
+}
+
+.header .header-button-active {
+    background-color: #2779f5;
+}
+
+.hamburger-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1.8rem;
+    height: 1.2rem;
+    overflow: hidden;
+}
+
+.hamburger-line1 {
+    top: 0rem;
+    /* margin-bottom: 0.5rem; */
+}
+
+.hamburger-line2 {
+    top: 1rem;
+    width: 1rem !important;
+}
+
+.close-line1 {
+    transform: translate3d(0px, 5px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.close-line2 {
+    width: 1.8rem !important;
+    transform: translate3d(0px, -5px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.social-media {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 2rem;
+    right: 7rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #2e2d38;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.social-media img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.logo-tzpulse {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    height: 5rem;
+    width: 5rem;
+    z-index: 11;
+}
+
+.header-menu {
+    position: fixed;
+    height: 100vh;
+    max-height: 100vh;
+    width: 0;
+    background-color: #efefef;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.header-menu-active {
+    width: 100vw;
+}
+
+.white-line {
+    position: absolute;
+    width: 1.8rem;
+    height: 0.2rem;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.social-media-menu-container {
+    position: fixed;
+    top: 2rem;
+    right: 10rem;
+    width: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    z-index: 11;
+}
+
+.social-media-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 9rem;
+}
+
+.social-media-menu .social-media-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0 1rem 1rem 0;
+    background-color: rgb(46, 45, 56, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.social-media-menu .social-media-item:hover {
+    background-color: rgb(46, 45, 56, 1);
+}
+
+.social-media-menu .social-media-item img {
+    height: 1.6rem;
+}
+
+.social-media-item .label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #2779f5;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.header-menu-content {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    width: 25rem;
+}
+
+.header-menu-content .item-highlight {
+    font-family: 'MontserratSemiBold', sans-serif !important;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #2779f5;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.header-menu-content .item {
+    font-family: 'MontserratSemiBold', sans-serif !important;
+    font-size: 2.6rem;
+    padding-left: 4rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #2779f5;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.header-menu-content .item-highlight:hover {
+    color: #2779f5;
+}
+
+.header-menu-content .item:hover {
+    color: #2779f5;
+}
+
+.item-highlight .number {
+    font-size: 1.5rem;
+    color: #2779f5;
+    margin-right: 0.5rem;
+}
+
+.community {
+    position: absolute;
+    bottom: 8rem;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.community .content {
+    width: 25rem;
+    margin: auto;
+}
+
+.community .social-media-menu {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.community .text {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+    color: #2779f5;
+}
+
+.community .content .social-media-menu .social-media-item {
+    background-color: #2779f5;
+}
+
+.header .header-menu-content a {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (min-width: 420px) {
+    .header button {
+        right: 2rem;
+        top: 2rem;
+        height: 6rem;
+        width: 6rem;
+    }
+    
+    .header button:hover {
+        height: 6.5rem;
+        width: 6.5rem;
+        right: 1.75rem;
+        top: 1.75rem;
+    }
+
+    .social-media {
+        top: 3.5rem;
+        right: 20rem;
+    }
+
+    .logo-tzpulse {
+        top: 2rem;
+        left: 2rem;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .social-media-menu-container {
+        top: 3.5rem;
+        right: 23rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 750px) {
+    .social-media-menu {
+        width: 42rem;
+    }
+
+    .header-menu-content {
+        top: 13rem;
+        left: 13rem;
+        width: 60rem;
+    }
+
+    .header-menu-content .item-highlight {
+        font-size: 7.3rem;
+        line-height: 7.3rem;
+        margin-bottom: 0;
+    }
+    
+    .header-menu-content .item {
+        font-size: 4.6rem;
+        line-height: 4.6rem;
+        padding-left: 4rem;
+        margin-bottom: 0;
+    }
+
+    .item-highlight .number {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin-right: 0.5rem;
+    }
+
+    .community {
+        right: 15rem;
+        bottom: 12rem;
+        width: auto;
+    }
+
+    .community .content {
+        width: 35rem;
+    }
+
+    .community .content .social-media-menu .social-media-item {
+        background-color: #2779f5;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .community .text {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (orientation:landscape)
+and (min-width: 450px)
+and (max-height: 450px) {
+    .header-menu-content {
+        top: 10vh;
+        left: 15vw;
+    }
+
+    .header-menu-content .item-highlight {
+        font-size: 3.2rem;
+        line-height: 3.5rem;
+    }
+
+    .item-highlight .number {
+        font-size: 1.5rem;
+    }
+    
+    .header-menu-content .item {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+
+    .community {
+        right: 3vw;
+        bottom: 3vw;
+        width: 25rem;
+    }
+
+    .community .content {
+        margin: 0;
+    }
+}

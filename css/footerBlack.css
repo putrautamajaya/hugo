@@ -1,0 +1,164 @@
+.footerBlack {
+    background-color: #2e2d38 !important;
+    padding: 5rem 2rem;
+    box-sizing: border-box;
+    min-height: 35rem;
+}
+
+.footerBlack .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBlack .title {
+    font-family: 'MontserratSemiBold';
+    color: #2779f5;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footerBlack .line-about {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.footerBlack .line-about hr {
+    display: block;
+    width: 100%;
+    border: 1px solid #2779f5;
+    margin-bottom: 3rem;
+}
+
+.footerBlack input {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: white;
+    border: 1px solid #cccccc;
+    background-color: #2e2d38;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.footerBlack .social-media-menu {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.footerBlack .social-media-item {
+    background-color: #2779f5;
+}
+
+.footerBlack-slide {
+    opacity: 0;
+}
+
+.footerBlack .about {
+    padding: 0;
+}
+
+.about .title {
+    font-family: 'MontserratSemiBold', sans-serif !important;
+    font-size: 8vw;
+    color: transparent;
+    -webkit-text-stroke: 1px #2779f5;
+    margin-bottom: 2rem;
+}
+
+
+.about .text {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 4.5vw;
+    line-height: 7vw;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.about .view-more,
+.footerBlack .send {
+    font-family: 'MontserratSemiBold', sans-serif;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+    background-color: #2779f5;
+    color: white;
+    border: none;
+}
+
+.about .view-more:hover,
+.footerBlack .send:hover {
+    background-color: white;
+    color: #2779f5;
+}
+
+@media screen and (min-width: 450px) {
+    .about .title {
+        font-size: 4vw;
+    }
+
+    .about .text {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .footerBlack {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .about .title {
+        font-size: 6vw;
+        line-height: 7vw;
+        padding-right: 2rem;
+        width: 50%;
+        box-sizing: border-box;
+        word-break: break-word;
+    }
+
+    .about .description {
+        width: 50%;
+    }
+
+    .about .text {
+        line-height: 5vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about .title {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .about .text {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+
+    .footerBlack {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .footerBlack {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
