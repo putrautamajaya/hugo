@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('/fonts/montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratMedium';
+    src: url('/fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('/fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('/fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+.slide-animation-container {
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    /* height: 100%; */
+    opacity: 0;
+    -webkit-animation: slide-up 1s forwards;
+    animation: slide-up 1s forwards;
+    z-index: 1;
+}
+
+@keyframes slide-up {
+    from {
+        top: 100px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.line-small-black {
+    width: 5rem;
+    height: 0.3rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #2e2d38;
+}
+
+.scratch-1 {
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    height: 8vh !important;
+    width: 20vw !important;
+    object-fit: cover !important;
+}
+
+.scratch-2 {
+    position: absolute;
+    top: 85vh;
+    left: 50vw;
+    height: 12vw !important;
+    width: 12vw !important;
+    object-fit: cover !important;
+    z-index: 2;
+}
+

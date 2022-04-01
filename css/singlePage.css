@@ -1,0 +1,359 @@
+.single-page {
+    background-color: #efefef;
+    padding: 10rem 2rem;
+    box-sizing: border-box;
+}
+
+.single-page img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.single-page .line-small {
+    width: 5rem;
+    height: 0.3rem;
+    margin: 0.5rem 0;
+    background-color: #2e2d38;
+}
+
+.single-page .article-type {
+    font-family: 'MontserratMedium', sans-serif;
+    font-size: 1.5rem;
+    color: #2e2d38;
+    opacity: 0.9;
+}
+
+.single-page .date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #2e2d38;
+    opacity: 0.9;
+    margin-bottom: 4rem;
+}
+
+.single-page h1 {
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 9vw;
+    color: transparent;
+    -webkit-text-stroke: 1px #2779f5;
+    margin-bottom: 0.5rem;
+}
+
+.single-page h2 {
+    font-family: 'MontserratLight', sans-serif;
+    font-size: 5vw;
+    line-height: 7.5vw;
+    color: #2779f5;
+    opacity: 0.8;
+}
+
+.single-page h4 {
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 6vw;
+    color: #2779f5;
+    opacity: 0.85;
+}
+
+.single-page .content a {
+    word-break: break-all;
+}
+
+.single-page p,
+.single-page li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    line-height: 7vw;
+    color: #2e2d38;
+    opacity: 0.8;
+}
+
+.single-page .content img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.single-page .scroll-down {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20rem;
+    left: 0;
+}
+
+.single-page .scroll-down img {
+    width: 1.3rem;
+    height: 4rem;
+}
+
+.single-page .scroll-down div {
+    font-family: 'MontserratBold', sans-serif;
+    color: #2e2d38;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    margin-bottom: 5rem;
+    opacity: 0.8;
+}
+
+.single-page .back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.single-page .back img {
+    width: 1.3rem;
+    height: 4rem;
+    transform: rotate(90deg);
+}
+
+.single-page .back div {
+    font-family: 'MontserratBold', sans-serif;
+    color: #2e2d38;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.next-article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MontserratLight', sans-serif;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    background-color: #2779f5;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.next-article div {
+    font-size: 3rem;
+    color: white;
+}
+
+.next-article:hover {
+    background-color: white;
+}
+
+.next-article:hover div {
+    color: #2779f5;
+}
+
+.single-page iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+.single-page .content form {
+    width: 100%;
+}
+
+.single-page .content form .label {
+    font-family: 'MontserratSemiBold', sans-serif;
+    width: 100%;
+    font-size: 1.4rem;
+    color: #2e2d38;
+    opacity: 0.8;
+}
+
+.single-page .content form input {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.4rem;
+    color: #2e2d38;
+    background-color: #efefef;
+    border: 1px solid #cccccc;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.single-page .content form button {
+    height: 32px;
+    padding: 1rem 1.5rem;
+    background-color: #2779f5;
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.single-page .content .download a {
+    padding: 1rem 1.5rem;
+    background-color: #2779f5;
+    font-family: 'MontserratSemiBold', sans-serif;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.single-page .content form button:hover,
+.single-page .content .download a:hover {
+    background-color: white;
+    color: #2779f5;
+}
+
+.single-page .content .download {
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.single-page .content .download p {
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 450px) {
+    .single-page {
+        padding: 10rem 9rem 9rem 9rem;
+    }
+
+    .single-page img {
+        height: 80vh;
+    }
+
+    .single-page h1 {
+        font-size: 5.5vw;
+    }
+    
+    .single-page h2 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    
+    .single-page h4 {
+        font-size: 3.5vw;
+    }
+    
+    .single-page p,
+    .single-page li {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .single-page img {
+        height: 30vh;
+    }
+
+    .single-page .scroll-down {
+        display: flex;
+        left: -2rem;
+        top: 85vh;
+    }
+
+    .single-page iframe {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .single-page {
+        padding: 10rem 12rem;
+    }
+
+    .single-page img {
+        height: 60vh;
+    }
+
+    .single-page h1 {
+        font-size: 5vw;
+        width: 70%;
+    }
+    
+    .single-page h2 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 70%;
+    }
+    
+    .single-page h4 {
+        font-size: 2.5vw;
+        width: 70%;
+    }
+    
+    .single-page p,
+    .single-page li {
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+        width: 70%;
+    }
+
+    .single-page iframe {
+        width: 70%;
+    }
+
+    .single-page .content form {
+        width: 70%;
+    }
+
+    .single-page .content .download {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .single-page {
+        padding: 10rem 20rem;
+    }
+
+    .single-page img {
+        height: 70vh;
+    }
+
+    .single-page h1 {
+        font-size: 4vw;
+        width: 70%;
+    }
+    
+    .single-page h2 {
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+        width: 70%;
+    }
+    
+    .single-page h4 {
+        font-size: 1.5vw;
+        width: 70%;
+    }
+    
+    .single-page p,
+    .single-page li {
+        font-size: 1vw;
+        line-height: 1.5vw;
+        width: 70%;
+    }
+}

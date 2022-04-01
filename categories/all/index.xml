@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>all on My New Hugo Site</title>
+    <link>http://example.org/categories/all/</link>
+    <description>Recent content in all on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Mar 2022 10:40:14 +0700</lastBuildDate><atom:link href="http://example.org/categories/all/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise Nfts on Tezos</title>
+      <link>http://example.org/articles/enterprise-nfts-on-tezos/</link>
+      <pubDate>Fri, 25 Mar 2022 10:40:14 +0700</pubDate>
+      
+      <guid>http://example.org/articles/enterprise-nfts-on-tezos/</guid>
+      <description>Use cases for NFTs go beyond consumer-driven art and collectables. Discover how to apply the NFTs to your business. Fill this form to download pdf</description>
+    </item>
+    
+    <item>
+      <title>Manchester United Teams Up With Tezos</title>
+      <link>http://example.org/articles/manchester-united-teams-up-with-tezos/</link>
+      <pubDate>Thu, 24 Mar 2022 14:39:37 +0700</pubDate>
+      
+      <guid>http://example.org/articles/manchester-united-teams-up-with-tezos/</guid>
+      <description>MANCHESTER UNITED SELECTS TEZOS AS OFFICIAL BLOCKCHAIN AND TRAINING KIT PARTNER Manchester United has today announced a landmark multi-year partnership which will see Tezos, one of the world’s most advanced and sustainable blockchains, featured on the Club’s range of men’s and women’s training kits.
+‍
+Tezos-branded training kit will be worn by the first team squad for the first time prior to this weekend’s match against Southampton, introducing Manchester United fans to the partnership and Web3 technology through the Tezos blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Digital Governance and the Promise of Blockchains in Supporting Democratic Systems</title>
+      <link>http://example.org/articles/digital-governance-and-the-promise-of-blockchains-in-supporting-democratic-systems/</link>
+      <pubDate>Sat, 26 Feb 2022 17:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/articles/digital-governance-and-the-promise-of-blockchains-in-supporting-democratic-systems/</guid>
+      <description>There&amp;rsquo;s a quiet revolution taking place in Asia&amp;rsquo;s boardrooms and policy circles. Blockchain technology represents a leap in both corporate governance and the emerging concept of digital governance. It changes how democratic systems build consensus and put power back into the hands of stakeholders. According to The Economist Intelligence Unit&amp;rsquo;s (EIU) 2021 Democracy Index survey, which ranks 167 countries across various factors, including their electoral processes, civil liberties, and levels of political participation, global freedoms hit a record low last year.</description>
+    </item>
+    
+    <item>
+      <title>Ithaca: What Tenderbake and liquidity baking could mean for Tezos users</title>
+      <link>http://example.org/articles/ithaca-what-tenderbake-and-liquidity-baking-could-mean-for-tezos-users/</link>
+      <pubDate>Mon, 14 Feb 2022 17:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/articles/ithaca-what-tenderbake-and-liquidity-baking-could-mean-for-tezos-users/</guid>
+      <description>The Tezos Ithaca upgrade brings several improvements to Tezos&amp;rsquo; consensus model, including deterministic finality and a shift away from a roll-based model to an optimized stake-based model. In this article, we take a deep dive into some of these changes – and what they mean for users. The Ithaca upgrade to the Tezos protocol proposes an improved finality model, Tenderbake, and extends the liquidity baking of the Tezos network. Here we cover how the Ithaca proposal would achieve faster blockchain finality, how it improves on the Granada proposal&amp;rsquo;s Emmy* consensus, and what this all means for Tezos&amp;rsquo; users.</description>
+    </item>
+    
+    <item>
+      <title>Nomadic Labs partners with PwC in France to analyze the Tezos blockchain&#39;s environmental footprint</title>
+      <link>http://example.org/articles/nomadic-labs-partners-with-pwc-in-france-to-analyze-the-tezos-blockchains-environmental-footprint/</link>
+      <pubDate>Tue, 25 Jan 2022 14:15:30 +0700</pubDate>
+      
+      <guid>http://example.org/articles/nomadic-labs-partners-with-pwc-in-france-to-analyze-the-tezos-blockchains-environmental-footprint/</guid>
+      <description>In a landmark report prepared by PricewaterhouseCoopers Advisory SAS in partnership with Nomadic Labs, a French subsidiary of Tezos Foundation, users and bakers across the Tezos blockchain have gained crucial insights into the energy efficiency of the blockchain and its implications for usage at scale. To ensure the report&amp;rsquo;s findings were accurate, Nomadic Labs hired Hélène Lelièvre (Enviroconseil), an LCA professional with a wealth of experience in eco-design and carbon footprint analysis, to conduct an independent critical review.</description>
+    </item>
+    
+  </channel>
+</rss>
